@@ -1,6 +1,7 @@
 require(MASS)
 library(ggplot2)
-
+# O codigo de leitura foi baseado em um projeto do github 
+# https://gist.github.com/brendano/39760
 leitor <- list(
   read_image_file = function(filename) {
     ret = list()
@@ -34,6 +35,9 @@ leitor <- list(
     }
   }
 )
+
+#O codigo do processarKnn foi baseado neste exemplo de Knn em R
+#https://rstudio-pubs-static.s3.amazonaws.com/123438_3b9052ed40ec4cd2854b72d1aa154df9.html
 
 processor <- list(
   processarKnn = function(trainx,testx,trainy,testy){

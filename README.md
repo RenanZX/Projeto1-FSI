@@ -1,4 +1,4 @@
-# Projeto1-FSI
+﻿# Projeto1-FSI
 O projeto possui o intuito de criar um sistema inteligente, que seja capaz de classificar dígitos manuscritos através dos algoritmos de classificação LDA e Knn.
 
 ## Requisitos
